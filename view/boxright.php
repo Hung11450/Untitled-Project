@@ -41,9 +41,6 @@
                         <input type="password" name="pass">
                     </div>
                     <div class="row mb10">
-                        <input type="checkbox">Ghi nhớ tài khoản?
-                    </div>
-                    <div class="row mb10">
                         <input type="submit" value="Đăng nhập" name="dangnhap">
                     </div>
                 </form>
@@ -77,7 +74,7 @@
         </div>
         <div class="row">
             <div class="boxtitle">Top sản phẩm yêu thích</div>
-            <div class="row boxcontent">
+<div class="row boxcontent">
                 <?php 
                     foreach($dstop10 as $sp){ 
                         ?>
