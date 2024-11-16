@@ -46,7 +46,3 @@
 <div class="boxphai">
         <?php include "boxright.php"; ?>
     </div>
-<<<<<<< HEAD
-</div>
-=======
->>>>>>> 512f230c13d5eb07c1e96b02cb8bb0c18894623a
