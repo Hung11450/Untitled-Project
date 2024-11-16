@@ -4,7 +4,6 @@
     include "model/sanpham.php";
     include "view/header.php";
     define("BASE_URL", "http://localhost/duan11/");
-    // define("BASE_URL", "http://localhost/duan11/");
     include "model/danhmuc.php";
     include "model/taikhoan.php";
 
