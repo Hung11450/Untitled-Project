@@ -41,9 +41,6 @@
                         <input type="password" name="pass">
                     </div>
                     <div class="row mb10">
-                        <input type="checkbox">Ghi nhớ tài khoản?
-                    </div>
-                    <div class="row mb10">
                         <input type="submit" value="Đăng nhập" name="dangnhap">
                     </div>
                 </form>
