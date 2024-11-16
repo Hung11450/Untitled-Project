@@ -3,7 +3,7 @@
     include "model/pdo.php";
     include "model/sanpham.php";
     include "view/header.php";
-    define("BASE_URL", "http://localhost:8080/DUANMAU/");
+    define("BASE_URL", "http://localhost/UNTITLED-PROJECT/");
     include "model/danhmuc.php";
     include "model/taikhoan.php";
 
