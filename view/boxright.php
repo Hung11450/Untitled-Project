@@ -1,3 +1,4 @@
+<<<<<<< HEAD
     <?php extract($dsdm); ?>
     <div class="row mb">
                 <div class="boxtitle">Tài khoản</div>
@@ -30,6 +31,68 @@
                         </div>
                     <?php 
                         }else {
+?>
+<?php extract($dsdm); ?>
+<div class="row mb">
+            <div class="boxtitle">Tài khoản</div>
+            <div class="boxcontent formtaikhoan">
+                <?php 
+                    if(isset($_SESSION['user'])){
+                        extract($_SESSION['user']);
+                        ?>
+                    <div class="row mb10">
+                        Xin chào <br>
+                        <?= $user ?>
+                    </div>
+                    <div class="row mb10">
+                        <li>
+                            <a href="index.php?act=quenmk">Quên mật khẩu</a>
+                        </li>
+                        <li>
+                            <a href="index.php?act=edit_taikhoan">Cập nhật tài khoản</a>
+                        </li>
+                        <?php 
+                        if($role == 1){
+                        ?>
+                        <li>
+                            <a href="admin/index.php">Đăng nhập admin</a>
+                        </li>
+                        <?php } ?>
+                        <li>
+                            <a href="index.php?act=thoat">Đăng xuất</a>
+                        </li>
+                    </div>
+                <?php 
+                    }else {
+                ?>
+                <form action="index.php?act=dangnhap" method="post">
+                    <div class="row mb10">
+                        Tên đăng nhập <br>
+                        <input type="text" name="user">
+                    </div>
+                    <div class="row mb10">
+                        Mật khẩu <br>
+                        <input type="password" name="pass">
+                    </div>
+                    <div class="row mb10">
+                        <input type="submit" value="Đăng nhập" name="dangnhap">
+                    </div>
+                </form>
+                <li>
+                    <a href="#">Quên mật khẩu</a>
+                </li>
+                <li>
+                    <a href="index.php?act=dangki">Đăng kí thành viên</a>
+                </li>
+                <?php } ?>
+            </div>
+        </div>
+        <div class="row mb">
+            <div class="boxtitle">Danh mục</div>
+            <div class="boxcontent2 menudoc">
+                <ul>
+                <?php foreach($dsdm as $dm){
+>>>>>>> 512f230c13d5eb07c1e96b02cb8bb0c18894623a
                     ?>
                     <form action="index.php?act=dangnhap" method="post">
                         <div class="row mb10">
