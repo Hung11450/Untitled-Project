@@ -2,20 +2,32 @@
 <div class="row mb">
     <div class="boxtrai mr" style="margin-bottom: auto;">
     <div class="row mb">
+        <?php
+        if(isset($_SESSION['user'])){
+        ?>
         <div class="boxtitle"><?= $onesp['name'] ?></div>
             <div class="row boxcontent">            
                       <?= $onesp['mota']; ?>  
                       <div class="row mb">  
                       <img class="spct" src="<?= BASE_URL . $onesp['img'] ?>">
                       </div>  
-            </div>            
+            </div>         
         </div>       
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script>
             $(document).ready(function(){
                 $("#binhluan").load("view/binhluan/binhluanform.php", {idpro: <?= $onesp['id'] ?>});
             });
-            </script>                  
+            </script>      
+            <?php } else {?>
+                <div class="boxtitle"><?= $onesp['name'] ?></div>
+            <div class="row boxcontent">            
+                      <?= $onesp['mota']; ?>  
+                      <div class="row mb">  
+                      <img class="spct" src="<?= BASE_URL . $onesp['img'] ?>">
+                      </div>  
+            </div>   
+            <?php }?>            
         <div class="row" id="binhluan">
                                 
         <div class="row mb">
