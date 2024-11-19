@@ -1,5 +1,6 @@
 <div class="row mb">
     <div class="boxtrai mr" style="margin-bottom: auto;">
+
         <div class="row mb">
             <?php
             if (isset($_SESSION['user'])) {
@@ -42,8 +43,7 @@
         </div>
     </div>
     </div>
-    <div class="boxphai">
+    <div class="boxphai" style="margin-bottom: auto;">
         <?php include "boxright.php"; ?>
+    </div>
 </div>
-     </div>
-
