@@ -70,7 +70,6 @@
                     $checkuser = checkuser($user , $pass);
                     if (is_array($checkuser)) {
                         $_SESSION['user'] = $checkuser;
-
                         $thongBaoThanhCong = "Đăng nhập thành công";
                         echo "<script>window.location.href='index.php'</script>";
                     } else {
