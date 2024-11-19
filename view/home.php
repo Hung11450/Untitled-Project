@@ -5,20 +5,17 @@
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
-                <div style="color: black;" class="numbertext">1 / 3</div>
-                <img src="view/images/desk_header_beeb2af002.png" style="width:100%">
+                <img src="view/images/slide1.jpg" style="width:100%">
                 
                 </div>
 
                 <div class="mySlides fade">
-                <div style="color: black;" class="numbertext">2 / 3</div>
-                <img src="view/images/T1_1240x285_08390f84a0.png" style="width:100%">
+                <img src="view/images/slide2.jpg" style="width:100%">
                 
                 </div>
 
                 <div class="mySlides fade">
-                <div style="color: black;" class="numbertext">3 / 3</div>
-                <img src="view/images/desk_header_21e7913e62.png" style="width:100%">
+                <img src="view/images/slide3.jpg" style="width:100%">
                 
                 </div>
 

@@ -54,11 +54,11 @@ body {
 }
 
 .header {
-    background-color: aquamarine;
+    /* background-color: aquamarine;
     border: 1px solid #060;
     color: blue;
     border-radius: 5px;
-    height: 50px;
+    height: 50px; */
 }
 
 .header h1 {
