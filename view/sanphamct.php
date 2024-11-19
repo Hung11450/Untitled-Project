@@ -42,7 +42,8 @@
         </div>
     </div>
     </div>
-     </div>
-<div class="boxphai">
+    <div class="boxphai">
         <?php include "boxright.php"; ?>
-    </div>
+</div>
+     </div>
+

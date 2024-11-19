@@ -7,7 +7,6 @@
     <title>Dự án mẫu 2024</title>
     <link rel="stylesheet" href="view/css/style.css">
 </head>
-
 <body>
     <div class="boxcenter">
         <div class="row mb menu">
