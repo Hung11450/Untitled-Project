@@ -7,18 +7,18 @@
     <title>Dự án mẫu 2024</title>
     <link rel="stylesheet" href="view/css/style.css">
 </head>
-
 <body>
     <div class="boxcenter">
         <div class="row mb menu">
             <ul>
                 <li>Shop bán quần áo
-                    <img src="/view/images/logo.png" style="width: 10px; height:10px;" alt="">
+                    <img src="./images/logo.png" alt="">
                 </li>
-                <li><a href="index.php">Trang chủ</a></li>
-                <li><a href="index.php?act=gioithieu">Giới thiệu</a></li>
-                <li><a href="index.php?act=lienhe">Liên hệ</a></li>
-                <li><a href="index.php?act=gopy">Góp ý</a></li>
-                <li><a href="index.php?act=hoidap">Hỏi đáp</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="index.php?act=gioithieu">Shop</a></li>
+                <li><a href="index.php?act=gopy">About</a></li>
+                <li><a href="index.php?act=lienhe">Contact</a></li>
+                <li><a href="index.php?act=hoidap">❓</a></li>
+                <li><a href="">🛒</a></li>
             </ul>
         </div>
